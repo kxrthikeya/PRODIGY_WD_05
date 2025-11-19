@@ -1,0 +1,39 @@
+body {
+  background: #8ecae6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 { margin-top: 30px; color: #22223b; }
+#weather-box {
+  background: #fff;
+  padding: 22px 40px 30px;
+  border-radius: 18px;
+  margin-top: 28px;
+  box-shadow: 0 8px 24px #02304725;
+  min-width: 320px;
+}
+input[type=text] {
+  padding: 8px 9px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #7b7b7b;
+  margin-right: 8px;
+  width: 140px;
+}
+button {
+  background: #219ebc;
+  color: #fff;
+  border: none;
+  padding: 9px 19px;
+  margin-left: 4px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#info-stuff { margin-top: 19px; color: #333; }
+.tiny { font-size: 0.9em; color: #bebebe; margin-top: 8px;}
+.oopsmsg { color: #ef476f; font-weight: bold; margin-top: 20px; }
