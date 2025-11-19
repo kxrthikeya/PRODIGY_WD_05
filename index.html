@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WeatherThingy 🌤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>WeatherThingy 🌤️</h1>
+
+  <div id="weather-box">
+    <form id="loc-form">
+      <input id="loc-input" type="text" placeholder="Type a city (e.g. London)" />
+      <button type="submit">Go!</button>
+      <button type="button" id="use-my">My Location</button>
+    </form>
+    <div id="info-stuff"></div>
+    <div class="tiny">(Weather data from OpenWeatherMap)</div>
+    <div id="oops" class="oopsmsg"></div>
+  </div>
+
+  <script src="weather.js"></script>
+</body>
+</html>
